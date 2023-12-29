@@ -1,0 +1,5 @@
+disp('Ditt bandpassfilter dämpar enligt följande:')
+disp(['  * ' num2str(-20*log10(abs(value(H_BP,900))),'%.1f') ' dB dämpning vid 900 Hz'])
+disp(['  * ' num2str(-20*log10(abs(value(H_BP,941))),'%.1f') ' dB dämpning vid 941 Hz'])
+disp(['  * ' num2str(-20*log10(abs(value(H_BP,1209))),'%.1f') ' dB dämpning vid 1209 Hz'])
+disp(['  * ' num2str(-20*log10(abs(value(H_BP,1250))),'%.1f') ' dB dämpning vid 1250 Hz'])
